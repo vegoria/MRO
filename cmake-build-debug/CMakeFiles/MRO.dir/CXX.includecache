@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/MRO/main.cpp
+iostream
+-
+tga_src/TPGM.h
+F:/MRO/tga_src/TPGM.h
+
+F:/MRO/tga_src/TPGM.h
+
