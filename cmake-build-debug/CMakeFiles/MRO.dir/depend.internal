@@ -3,4 +3,10 @@
 
 CMakeFiles/MRO.dir/main.cpp.obj
  F:/MRO/main.cpp
- F:/MRO/tga_src/TPGM.h
+ F:/MRO/memoryManagment/imageAllocation.hpp
+CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.obj
+ F:/MRO/memoryManagment/imageAllocation.cpp
+ F:/MRO/memoryManagment/imageAllocation.hpp
+ F:/MRO/tgaSrc/TPGM.h
+CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj
+ F:/MRO/tgaSrc/TPGM.cpp

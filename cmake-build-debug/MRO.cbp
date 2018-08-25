@@ -83,6 +83,18 @@
 		<Unit filename="F:/MRO/main.cpp">
 			<Option target="MRO"/>
 		</Unit>
+		<Unit filename="F:/MRO/memoryManagment/imageAllocation.cpp">
+			<Option target="MRO"/>
+		</Unit>
+		<Unit filename="F:/MRO/memoryManagment/imageAllocation.hpp">
+			<Option target="MRO"/>
+		</Unit>
+		<Unit filename="F:/MRO/tgaSrc/TPGM.cpp">
+			<Option target="MRO"/>
+		</Unit>
+		<Unit filename="F:/MRO/tgaSrc/TPGM.h">
+			<Option target="MRO"/>
+		</Unit>
 		<Unit filename="F:/MRO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

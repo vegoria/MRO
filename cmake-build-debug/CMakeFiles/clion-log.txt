@@ -1,1 +1,4 @@
-CMakeLists.txt not found in F:\MRO Select CMakeLists.txt file...
+"D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\MRO
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/MRO/cmake-build-debug

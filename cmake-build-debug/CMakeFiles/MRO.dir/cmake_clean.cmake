@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MRO.dir/main.cpp.obj"
+  "CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj"
+  "CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.obj"
   "MRO.pdb"
   "MRO.exe"
   "MRO.exe.manifest"

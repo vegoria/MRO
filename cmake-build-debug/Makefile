@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+memoryManagment/imageAllocation.obj: memoryManagment/imageAllocation.cpp.obj
+
+.PHONY : memoryManagment/imageAllocation.obj
+
+# target to build an object file
+memoryManagment/imageAllocation.cpp.obj:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.obj
+.PHONY : memoryManagment/imageAllocation.cpp.obj
+
+memoryManagment/imageAllocation.i: memoryManagment/imageAllocation.cpp.i
+
+.PHONY : memoryManagment/imageAllocation.i
+
+# target to preprocess a source file
+memoryManagment/imageAllocation.cpp.i:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.i
+.PHONY : memoryManagment/imageAllocation.cpp.i
+
+memoryManagment/imageAllocation.s: memoryManagment/imageAllocation.cpp.s
+
+.PHONY : memoryManagment/imageAllocation.s
+
+# target to generate assembly for a file
+memoryManagment/imageAllocation.cpp.s:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.s
+.PHONY : memoryManagment/imageAllocation.cpp.s
+
+tgaSrc/TPGM.obj: tgaSrc/TPGM.cpp.obj
+
+.PHONY : tgaSrc/TPGM.obj
+
+# target to build an object file
+tgaSrc/TPGM.cpp.obj:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj
+.PHONY : tgaSrc/TPGM.cpp.obj
+
+tgaSrc/TPGM.i: tgaSrc/TPGM.cpp.i
+
+.PHONY : tgaSrc/TPGM.i
+
+# target to preprocess a source file
+tgaSrc/TPGM.cpp.i:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.i
+.PHONY : tgaSrc/TPGM.cpp.i
+
+tgaSrc/TPGM.s: tgaSrc/TPGM.cpp.s
+
+.PHONY : tgaSrc/TPGM.s
+
+# target to generate assembly for a file
+tgaSrc/TPGM.cpp.s:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.s
+.PHONY : tgaSrc/TPGM.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... memoryManagment/imageAllocation.obj
+	@echo ... memoryManagment/imageAllocation.i
+	@echo ... memoryManagment/imageAllocation.s
+	@echo ... tgaSrc/TPGM.obj
+	@echo ... tgaSrc/TPGM.i
+	@echo ... tgaSrc/TPGM.s
 .PHONY : help
 
 
