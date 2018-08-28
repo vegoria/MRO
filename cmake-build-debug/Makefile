@@ -149,32 +149,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-memoryManagment/imageAllocation.obj: memoryManagment/imageAllocation.cpp.obj
+source/gaussianFilter.obj: source/gaussianFilter.cpp.obj
 
-.PHONY : memoryManagment/imageAllocation.obj
+.PHONY : source/gaussianFilter.obj
 
 # target to build an object file
-memoryManagment/imageAllocation.cpp.obj:
-	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.obj
-.PHONY : memoryManagment/imageAllocation.cpp.obj
+source/gaussianFilter.cpp.obj:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj
+.PHONY : source/gaussianFilter.cpp.obj
 
-memoryManagment/imageAllocation.i: memoryManagment/imageAllocation.cpp.i
+source/gaussianFilter.i: source/gaussianFilter.cpp.i
 
-.PHONY : memoryManagment/imageAllocation.i
+.PHONY : source/gaussianFilter.i
 
 # target to preprocess a source file
-memoryManagment/imageAllocation.cpp.i:
-	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.i
-.PHONY : memoryManagment/imageAllocation.cpp.i
+source/gaussianFilter.cpp.i:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/gaussianFilter.cpp.i
+.PHONY : source/gaussianFilter.cpp.i
 
-memoryManagment/imageAllocation.s: memoryManagment/imageAllocation.cpp.s
+source/gaussianFilter.s: source/gaussianFilter.cpp.s
 
-.PHONY : memoryManagment/imageAllocation.s
+.PHONY : source/gaussianFilter.s
 
 # target to generate assembly for a file
-memoryManagment/imageAllocation.cpp.s:
-	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/memoryManagment/imageAllocation.cpp.s
-.PHONY : memoryManagment/imageAllocation.cpp.s
+source/gaussianFilter.cpp.s:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/gaussianFilter.cpp.s
+.PHONY : source/gaussianFilter.cpp.s
+
+source/imageManagment.obj: source/imageManagment.cpp.obj
+
+.PHONY : source/imageManagment.obj
+
+# target to build an object file
+source/imageManagment.cpp.obj:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageManagment.cpp.obj
+.PHONY : source/imageManagment.cpp.obj
+
+source/imageManagment.i: source/imageManagment.cpp.i
+
+.PHONY : source/imageManagment.i
+
+# target to preprocess a source file
+source/imageManagment.cpp.i:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageManagment.cpp.i
+.PHONY : source/imageManagment.cpp.i
+
+source/imageManagment.s: source/imageManagment.cpp.s
+
+.PHONY : source/imageManagment.s
+
+# target to generate assembly for a file
+source/imageManagment.cpp.s:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageManagment.cpp.s
+.PHONY : source/imageManagment.cpp.s
 
 tgaSrc/TPGM.obj: tgaSrc/TPGM.cpp.obj
 
@@ -215,9 +242,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... memoryManagment/imageAllocation.obj
-	@echo ... memoryManagment/imageAllocation.i
-	@echo ... memoryManagment/imageAllocation.s
+	@echo ... source/gaussianFilter.obj
+	@echo ... source/gaussianFilter.i
+	@echo ... source/gaussianFilter.s
+	@echo ... source/imageManagment.obj
+	@echo ... source/imageManagment.i
+	@echo ... source/imageManagment.s
 	@echo ... tgaSrc/TPGM.obj
 	@echo ... tgaSrc/TPGM.i
 	@echo ... tgaSrc/TPGM.s

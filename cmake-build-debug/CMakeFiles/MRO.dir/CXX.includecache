@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
+F:/MRO/include/gaussianFilter.hpp
+
+F:/MRO/include/imageManagment.hpp
+
 F:/MRO/main.cpp
 iostream
 -
-memoryManagment/imageAllocation.hpp
-F:/MRO/memoryManagment/imageAllocation.hpp
+include/imageManagment.hpp
+F:/MRO/include/imageManagment.hpp
+include/gaussianFilter.hpp
+F:/MRO/include/gaussianFilter.hpp
 
-F:/MRO/memoryManagment/imageAllocation.cpp
-imageAllocation.hpp
-F:/MRO/memoryManagment/imageAllocation.hpp
-../tgaSrc/TPGM.h
-F:/MRO/tgaSrc/TPGM.h
+F:/MRO/source/gaussianFilter.cpp
+../include/gaussianFilter.hpp
+F:/MRO/include/gaussianFilter.hpp
 iostream
 -
-
-F:/MRO/memoryManagment/imageAllocation.hpp
-
-F:/MRO/tgaSrc/TPGM.h
+cmath
+-
 
