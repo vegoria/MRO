@@ -149,33 +149,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-source/gaussianFilter.obj: source/gaussianFilter.cpp.obj
-
-.PHONY : source/gaussianFilter.obj
-
-# target to build an object file
-source/gaussianFilter.cpp.obj:
-	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj
-.PHONY : source/gaussianFilter.cpp.obj
-
-source/gaussianFilter.i: source/gaussianFilter.cpp.i
-
-.PHONY : source/gaussianFilter.i
-
-# target to preprocess a source file
-source/gaussianFilter.cpp.i:
-	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/gaussianFilter.cpp.i
-.PHONY : source/gaussianFilter.cpp.i
-
-source/gaussianFilter.s: source/gaussianFilter.cpp.s
-
-.PHONY : source/gaussianFilter.s
-
-# target to generate assembly for a file
-source/gaussianFilter.cpp.s:
-	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/gaussianFilter.cpp.s
-.PHONY : source/gaussianFilter.cpp.s
-
 source/imageManagment.obj: source/imageManagment.cpp.obj
 
 .PHONY : source/imageManagment.obj
@@ -202,6 +175,33 @@ source/imageManagment.s: source/imageManagment.cpp.s
 source/imageManagment.cpp.s:
 	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageManagment.cpp.s
 .PHONY : source/imageManagment.cpp.s
+
+source/imageOperations.obj: source/imageOperations.cpp.obj
+
+.PHONY : source/imageOperations.obj
+
+# target to build an object file
+source/imageOperations.cpp.obj:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageOperations.cpp.obj
+.PHONY : source/imageOperations.cpp.obj
+
+source/imageOperations.i: source/imageOperations.cpp.i
+
+.PHONY : source/imageOperations.i
+
+# target to preprocess a source file
+source/imageOperations.cpp.i:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageOperations.cpp.i
+.PHONY : source/imageOperations.cpp.i
+
+source/imageOperations.s: source/imageOperations.cpp.s
+
+.PHONY : source/imageOperations.s
+
+# target to generate assembly for a file
+source/imageOperations.cpp.s:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageOperations.cpp.s
+.PHONY : source/imageOperations.cpp.s
 
 tgaSrc/TPGM.obj: tgaSrc/TPGM.cpp.obj
 
@@ -242,12 +242,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... source/gaussianFilter.obj
-	@echo ... source/gaussianFilter.i
-	@echo ... source/gaussianFilter.s
 	@echo ... source/imageManagment.obj
 	@echo ... source/imageManagment.i
 	@echo ... source/imageManagment.s
+	@echo ... source/imageOperations.obj
+	@echo ... source/imageOperations.i
+	@echo ... source/imageOperations.s
 	@echo ... tgaSrc/TPGM.obj
 	@echo ... tgaSrc/TPGM.i
 	@echo ... tgaSrc/TPGM.s

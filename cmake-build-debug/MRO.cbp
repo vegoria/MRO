@@ -80,19 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/MRO/include/gaussianFilter.hpp">
+		<Unit filename="F:/MRO/include/imageManagment.hpp">
 			<Option target="MRO"/>
 		</Unit>
-		<Unit filename="F:/MRO/include/imageManagment.hpp">
+		<Unit filename="F:/MRO/include/imageOperations.hpp">
 			<Option target="MRO"/>
 		</Unit>
 		<Unit filename="F:/MRO/main.cpp">
 			<Option target="MRO"/>
 		</Unit>
-		<Unit filename="F:/MRO/source/gaussianFilter.cpp">
+		<Unit filename="F:/MRO/source/imageManagment.cpp">
 			<Option target="MRO"/>
 		</Unit>
-		<Unit filename="F:/MRO/source/imageManagment.cpp">
+		<Unit filename="F:/MRO/source/imageOperations.cpp">
 			<Option target="MRO"/>
 		</Unit>
 		<Unit filename="F:/MRO/tgaSrc/TPGM.cpp">

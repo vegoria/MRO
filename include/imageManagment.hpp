@@ -3,8 +3,9 @@
 enum ImageKind
 {
     ORIGINAL,
-    GAUSSIAN,
-    GRADIENT,
+    ERODED,
+    DILATATED,
+    DIFFERENCE,
     WATERSHED,
     MAX_IMAGE_TYPE
 };

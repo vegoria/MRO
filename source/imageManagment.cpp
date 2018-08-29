@@ -24,14 +24,19 @@ string getImagePath(ImageKind imageKind)
         {
             break;
         }
-        case GAUSSIAN:
+        case ERODED:
         {
-            replace(imagePath, "inputFiles", "filteredImages");
+            replace(imagePath, "inputFiles", "erodedImages");
             break;
         }
-        case GRADIENT:
+        case DILATATED:
         {
-            replace(imagePath, "inputFiles", "gradientImages");
+            replace(imagePath, "inputFiles", "dilatatedImage");
+            break;
+        }
+        case DIFFERENCE:
+        {
+            replace(imagePath, "inputFiles", "differenceImages");
             break;
         }
         case WATERSHED:

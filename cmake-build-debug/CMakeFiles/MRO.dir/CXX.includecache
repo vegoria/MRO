@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-F:/MRO/include/gaussianFilter.hpp
-
 F:/MRO/include/imageManagment.hpp
 
-F:/MRO/main.cpp
-iostream
--
-include/imageManagment.hpp
-F:/MRO/include/imageManagment.hpp
-include/gaussianFilter.hpp
-F:/MRO/include/gaussianFilter.hpp
+F:/MRO/include/imageOperations.hpp
 
-F:/MRO/source/gaussianFilter.cpp
-../include/gaussianFilter.hpp
-F:/MRO/include/gaussianFilter.hpp
+F:/MRO/source/imageOperations.cpp
+../include/imageOperations.hpp
+F:/MRO/include/imageOperations.hpp
+../include/imageManagment.hpp
+F:/MRO/include/imageManagment.hpp
 iostream
--
-cmath
 -
 

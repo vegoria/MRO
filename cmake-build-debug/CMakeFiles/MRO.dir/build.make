@@ -95,25 +95,25 @@ CMakeFiles/MRO.dir/source/imageManagment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/source/imageManagment.cpp.s"
 	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\source\imageManagment.cpp -o CMakeFiles\MRO.dir\source\imageManagment.cpp.s
 
-CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj: CMakeFiles/MRO.dir/flags.make
-CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj: ../source/gaussianFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\source\gaussianFilter.cpp.obj -c F:\MRO\source\gaussianFilter.cpp
+CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: CMakeFiles/MRO.dir/flags.make
+CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: ../source/imageOperations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
+	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\source\imageOperations.cpp.obj -c F:\MRO\source\imageOperations.cpp
 
-CMakeFiles/MRO.dir/source/gaussianFilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MRO.dir/source/gaussianFilter.cpp.i"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\MRO\source\gaussianFilter.cpp > CMakeFiles\MRO.dir\source\gaussianFilter.cpp.i
+CMakeFiles/MRO.dir/source/imageOperations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MRO.dir/source/imageOperations.cpp.i"
+	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\MRO\source\imageOperations.cpp > CMakeFiles\MRO.dir\source\imageOperations.cpp.i
 
-CMakeFiles/MRO.dir/source/gaussianFilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/source/gaussianFilter.cpp.s"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\source\gaussianFilter.cpp -o CMakeFiles\MRO.dir\source\gaussianFilter.cpp.s
+CMakeFiles/MRO.dir/source/imageOperations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/source/imageOperations.cpp.s"
+	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\source\imageOperations.cpp -o CMakeFiles\MRO.dir\source\imageOperations.cpp.s
 
 # Object files for target MRO
 MRO_OBJECTS = \
 "CMakeFiles/MRO.dir/main.cpp.obj" \
 "CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj" \
 "CMakeFiles/MRO.dir/source/imageManagment.cpp.obj" \
-"CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj"
+"CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
 
 # External object files for target MRO
 MRO_EXTERNAL_OBJECTS =
@@ -121,7 +121,7 @@ MRO_EXTERNAL_OBJECTS =
 MRO.exe: CMakeFiles/MRO.dir/main.cpp.obj
 MRO.exe: CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj
 MRO.exe: CMakeFiles/MRO.dir/source/imageManagment.cpp.obj
-MRO.exe: CMakeFiles/MRO.dir/source/gaussianFilter.cpp.obj
+MRO.exe: CMakeFiles/MRO.dir/source/imageOperations.cpp.obj
 MRO.exe: CMakeFiles/MRO.dir/build.make
 MRO.exe: CMakeFiles/MRO.dir/linklibs.rsp
 MRO.exe: CMakeFiles/MRO.dir/objects1.rsp
