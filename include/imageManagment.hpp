@@ -7,6 +7,7 @@ enum ImageKind
     DILATATED,
     DIFFERENCE,
     WATERSHED,
+    FILTERED,
     MAX_IMAGE_TYPE
 };
 

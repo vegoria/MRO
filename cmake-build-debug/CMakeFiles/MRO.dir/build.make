@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\MRO
+CMAKE_SOURCE_DIR = C:\Users\vegor\Desktop\Studia\MRO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\MRO\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MRO.dir/depend.make
@@ -58,55 +58,55 @@ include CMakeFiles/MRO.dir/flags.make
 
 CMakeFiles/MRO.dir/main.cpp.obj: CMakeFiles/MRO.dir/flags.make
 CMakeFiles/MRO.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MRO.dir/main.cpp.obj"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\main.cpp.obj -c F:\MRO\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MRO.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\main.cpp.obj -c C:\Users\vegor\Desktop\Studia\MRO\main.cpp
 
 CMakeFiles/MRO.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MRO.dir/main.cpp.i"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\MRO\main.cpp > CMakeFiles\MRO.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vegor\Desktop\Studia\MRO\main.cpp > CMakeFiles\MRO.dir\main.cpp.i
 
 CMakeFiles/MRO.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/main.cpp.s"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\main.cpp -o CMakeFiles\MRO.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vegor\Desktop\Studia\MRO\main.cpp -o CMakeFiles\MRO.dir\main.cpp.s
 
 CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj: CMakeFiles/MRO.dir/flags.make
 CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj: ../tgaSrc/TPGM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\tgaSrc\TPGM.cpp.obj -c F:\MRO\tgaSrc\TPGM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\tgaSrc\TPGM.cpp.obj -c C:\Users\vegor\Desktop\Studia\MRO\tgaSrc\TPGM.cpp
 
 CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.i"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\MRO\tgaSrc\TPGM.cpp > CMakeFiles\MRO.dir\tgaSrc\TPGM.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vegor\Desktop\Studia\MRO\tgaSrc\TPGM.cpp > CMakeFiles\MRO.dir\tgaSrc\TPGM.cpp.i
 
 CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.s"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\tgaSrc\TPGM.cpp -o CMakeFiles\MRO.dir\tgaSrc\TPGM.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vegor\Desktop\Studia\MRO\tgaSrc\TPGM.cpp -o CMakeFiles\MRO.dir\tgaSrc\TPGM.cpp.s
 
 CMakeFiles/MRO.dir/source/imageManagment.cpp.obj: CMakeFiles/MRO.dir/flags.make
 CMakeFiles/MRO.dir/source/imageManagment.cpp.obj: ../source/imageManagment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MRO.dir/source/imageManagment.cpp.obj"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\source\imageManagment.cpp.obj -c F:\MRO\source\imageManagment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MRO.dir/source/imageManagment.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\source\imageManagment.cpp.obj -c C:\Users\vegor\Desktop\Studia\MRO\source\imageManagment.cpp
 
 CMakeFiles/MRO.dir/source/imageManagment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MRO.dir/source/imageManagment.cpp.i"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\MRO\source\imageManagment.cpp > CMakeFiles\MRO.dir\source\imageManagment.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vegor\Desktop\Studia\MRO\source\imageManagment.cpp > CMakeFiles\MRO.dir\source\imageManagment.cpp.i
 
 CMakeFiles/MRO.dir/source/imageManagment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/source/imageManagment.cpp.s"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\source\imageManagment.cpp -o CMakeFiles\MRO.dir\source\imageManagment.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vegor\Desktop\Studia\MRO\source\imageManagment.cpp -o CMakeFiles\MRO.dir\source\imageManagment.cpp.s
 
 CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: CMakeFiles/MRO.dir/flags.make
 CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: ../source/imageOperations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\source\imageOperations.cpp.obj -c F:\MRO\source\imageOperations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MRO.dir\source\imageOperations.cpp.obj -c C:\Users\vegor\Desktop\Studia\MRO\source\imageOperations.cpp
 
 CMakeFiles/MRO.dir/source/imageOperations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MRO.dir/source/imageOperations.cpp.i"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\MRO\source\imageOperations.cpp > CMakeFiles\MRO.dir\source\imageOperations.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vegor\Desktop\Studia\MRO\source\imageOperations.cpp > CMakeFiles\MRO.dir\source\imageOperations.cpp.i
 
 CMakeFiles/MRO.dir/source/imageOperations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MRO.dir/source/imageOperations.cpp.s"
-	D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\MRO\source\imageOperations.cpp -o CMakeFiles\MRO.dir\source\imageOperations.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vegor\Desktop\Studia\MRO\source\imageOperations.cpp -o CMakeFiles\MRO.dir\source\imageOperations.cpp.s
 
 # Object files for target MRO
 MRO_OBJECTS = \
@@ -126,7 +126,7 @@ MRO.exe: CMakeFiles/MRO.dir/build.make
 MRO.exe: CMakeFiles/MRO.dir/linklibs.rsp
 MRO.exe: CMakeFiles/MRO.dir/objects1.rsp
 MRO.exe: CMakeFiles/MRO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MRO.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MRO.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MRO.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/MRO.dir/clean:
 .PHONY : CMakeFiles/MRO.dir/clean
 
 CMakeFiles/MRO.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\MRO F:\MRO F:\MRO\cmake-build-debug F:\MRO\cmake-build-debug F:\MRO\cmake-build-debug\CMakeFiles\MRO.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\vegor\Desktop\Studia\MRO C:\Users\vegor\Desktop\Studia\MRO C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles\MRO.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MRO.dir/depend
 

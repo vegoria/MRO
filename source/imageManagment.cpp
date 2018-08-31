@@ -44,6 +44,11 @@ string getImagePath(ImageKind imageKind)
             replace(imagePath, "inputFiles", "outputFiles");
             break;
         }
+        case FILTERED:
+        {
+            replace(imagePath, "inputFiles", "filteredImages");
+            break;
+        }
         default:
         {
             replace(imagePath, "inputFiles", "junk");

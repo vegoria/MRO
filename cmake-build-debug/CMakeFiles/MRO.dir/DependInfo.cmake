@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/MRO/main.cpp" "F:/MRO/cmake-build-debug/CMakeFiles/MRO.dir/main.cpp.obj"
-  "F:/MRO/source/imageManagment.cpp" "F:/MRO/cmake-build-debug/CMakeFiles/MRO.dir/source/imageManagment.cpp.obj"
-  "F:/MRO/source/imageOperations.cpp" "F:/MRO/cmake-build-debug/CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
-  "F:/MRO/tgaSrc/TPGM.cpp" "F:/MRO/cmake-build-debug/CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj"
+  "C:/Users/vegor/Desktop/Studia/MRO/main.cpp" "C:/Users/vegor/Desktop/Studia/MRO/cmake-build-debug/CMakeFiles/MRO.dir/main.cpp.obj"
+  "C:/Users/vegor/Desktop/Studia/MRO/source/imageManagment.cpp" "C:/Users/vegor/Desktop/Studia/MRO/cmake-build-debug/CMakeFiles/MRO.dir/source/imageManagment.cpp.obj"
+  "C:/Users/vegor/Desktop/Studia/MRO/source/imageOperations.cpp" "C:/Users/vegor/Desktop/Studia/MRO/cmake-build-debug/CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
+  "C:/Users/vegor/Desktop/Studia/MRO/tgaSrc/TPGM.cpp" "C:/Users/vegor/Desktop/Studia/MRO/cmake-build-debug/CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

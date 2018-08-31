@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-F:/MRO/include/imageManagment.hpp
+C:/Users/vegor/Desktop/Studia/MRO/include/imageManagment.hpp
 
-F:/MRO/include/imageOperations.hpp
+C:/Users/vegor/Desktop/Studia/MRO/include/imageOperations.hpp
 
-F:/MRO/source/imageOperations.cpp
+C:/Users/vegor/Desktop/Studia/MRO/main.cpp
+iostream
+-
+include/imageManagment.hpp
+C:/Users/vegor/Desktop/Studia/MRO/include/imageManagment.hpp
+include/imageOperations.hpp
+C:/Users/vegor/Desktop/Studia/MRO/include/imageOperations.hpp
+
+C:/Users/vegor/Desktop/Studia/MRO/source/imageOperations.cpp
 ../include/imageOperations.hpp
-F:/MRO/include/imageOperations.hpp
+C:/Users/vegor/Desktop/Studia/MRO/include/imageOperations.hpp
 ../include/imageManagment.hpp
-F:/MRO/include/imageManagment.hpp
+C:/Users/vegor/Desktop/Studia/MRO/include/imageManagment.hpp
 iostream
 -
 
