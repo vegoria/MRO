@@ -43,12 +43,14 @@ void Watershade::setImage(unsigned char** image)
 double Watershade::performWatershade()
 {
     cout << "[INF] Flooding image... ";
+    int iterations;
     TTiming tt;
     tt.Begin();
-    floodImage();
+    iterations = floodImage();
     markFloodedPixels();
     double elapsedTime = tt.End();
     cout << "elapsed time: " << elapsedTime << endl;
+    cout << "[INF] Number of iterations " << iterations << endl;
     return elapsedTime;
 }
 
@@ -66,38 +68,49 @@ void Watershade::markFloodedPixels()
     }
 }
 
-void Watershade::floodImage()
+int Watershade::floodImage()
 {
     floodedImage[startY][startX] = true;
     floodVertical(startX-1, startY);
     floodHorizontal(startX-1, startY);
-    for(int i=startY; i<imageHeight-1; i++)
-    {
-        for(int j=startX; j<imageWidth-1; j++)
+    int iterations = 0;
+    do{
+        changed = false;
+        iterations++;
+        for(int i=startY; i<imageHeight-1; i++)
         {
-            floodVertical(j, i);
-            floodHorizontal(j, i);
-        }
-        for(int j=startX; j>0; j--)
-        {
-            floodVertical(j, i);
-            floodHorizontal(j, i);
-        }
-    }
 
-    for(int i=startY; i>0; i--)
-    {
-        for(int j=startX; j<imageWidth-1; j++)
-        {
-            floodVertical(j, i);
-            floodHorizontal(j, i);
+            for(int j=startX; j<imageWidth-1; j++)
+            {
+                if(floodedImage[i][j]) continue;
+                floodVertical(j, i);
+                floodHorizontal(j, i);
+            }
+            for(int j=startX; j>0; j--)
+            {
+                if(floodedImage[i][j]) continue;
+                floodVertical(j, i);
+                floodHorizontal(j, i);
+            }
         }
-        for(int j=startX; j>0; j--)
+
+        for(int i=startY; i>0; i--)
         {
-            floodVertical(j, i);
-            floodHorizontal(j, i);
+            for(int j=startX; j<imageWidth-1; j++)
+            {
+                if(floodedImage[i][j]) continue;
+                floodVertical(j, i);
+                floodHorizontal(j, i);
+            }
+            for(int j=startX; j>0; j--)
+            {
+                if(floodedImage[i][j]) continue;
+                floodVertical(j, i);
+                floodHorizontal(j, i);
+            }
         }
-    }
+    }while(changed);
+    return iterations;
 }
 
 bool Watershade::hasFloodedNeighbour(int x, int y)
@@ -114,7 +127,9 @@ void Watershade::floodVertical(int x, int y)
     {
         if(image[i][x] <= treshold and hasFloodedNeighbour(x, i))
         {
+            if(not floodedImage[i][x]) changed = true;
             floodedImage[i][x] = true;
+
         }
         else
         {
@@ -125,6 +140,7 @@ void Watershade::floodVertical(int x, int y)
     {
         if(image[i][x] <= treshold and hasFloodedNeighbour(x, i))
         {
+            if(not floodedImage[i][x]) changed = true;
             floodedImage[i][x] = true;
         }
         else
@@ -140,6 +156,7 @@ void Watershade::floodHorizontal(int x, int y)
     {
         if(image[y][i] <= treshold and hasFloodedNeighbour(i, y))
         {
+            if(not floodedImage[y][i]) changed = true;
             floodedImage[y][i] = true;
         }
         else
@@ -151,6 +168,7 @@ void Watershade::floodHorizontal(int x, int y)
     {
         if(image[y][i] <= treshold and hasFloodedNeighbour(i, y))
         {
+            if(not floodedImage[y][i]) changed = true;
             floodedImage[y][i] = true;
         }
         else

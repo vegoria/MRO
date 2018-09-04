@@ -16,7 +16,7 @@ private:
     bool hasFloodedNeighbour(int x, int y);
     void floodVertical(int x, int y);
     void floodHorizontal(int x, int y);
-    void floodImage();
+    int floodImage();
     void markFloodedPixels();
 
     const int imageWidth;
@@ -26,4 +26,5 @@ private:
     int startX;
     int startY;
     int treshold;
+    bool changed;
 };

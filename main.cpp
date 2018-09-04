@@ -67,7 +67,6 @@ int main()
     watershade->setImage(differenceImage);
     watershade->setStartingPoint(startX, startY);
     elapsedTime += watershade->performWatershade();
-
     saveImage(differenceImage, width, height, WATERSHED);
 
     deallocateMemory(differenceImage);
