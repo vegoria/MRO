@@ -5,7 +5,7 @@ enum ImageKind
     ORIGINAL,
     ERODED,
     DILATATED,
-    DIFFERENCE,
+    DIFFERENCE_IMG,
     WATERSHED,
     FILTERED,
     MAX_IMAGE_TYPE

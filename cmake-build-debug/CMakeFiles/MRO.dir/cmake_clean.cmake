@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj"
   "CMakeFiles/MRO.dir/source/imageManagment.cpp.obj"
   "CMakeFiles/MRO.dir/source/imageOperations.cpp.obj"
+  "CMakeFiles/MRO.dir/source/watershade.cpp.obj"
   "MRO.pdb"
   "MRO.exe"
   "MRO.exe.manifest"

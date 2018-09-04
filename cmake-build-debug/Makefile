@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\vegor\Desktop\Studia\MRO
+CMAKE_SOURCE_DIR = F:\MRO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug
+CMAKE_BINARY_DIR = F:\MRO\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Programs\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\MRO\cmake-build-debug\CMakeFiles F:\MRO\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vegor\Desktop\Studia\MRO\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\MRO\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ source/imageOperations.cpp.s:
 	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/imageOperations.cpp.s
 .PHONY : source/imageOperations.cpp.s
 
+source/watershade.obj: source/watershade.cpp.obj
+
+.PHONY : source/watershade.obj
+
+# target to build an object file
+source/watershade.cpp.obj:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/watershade.cpp.obj
+.PHONY : source/watershade.cpp.obj
+
+source/watershade.i: source/watershade.cpp.i
+
+.PHONY : source/watershade.i
+
+# target to preprocess a source file
+source/watershade.cpp.i:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/watershade.cpp.i
+.PHONY : source/watershade.cpp.i
+
+source/watershade.s: source/watershade.cpp.s
+
+.PHONY : source/watershade.s
+
+# target to generate assembly for a file
+source/watershade.cpp.s:
+	$(MAKE) -f CMakeFiles\MRO.dir\build.make CMakeFiles/MRO.dir/source/watershade.cpp.s
+.PHONY : source/watershade.cpp.s
+
 tgaSrc/TPGM.obj: tgaSrc/TPGM.cpp.obj
 
 .PHONY : tgaSrc/TPGM.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... source/imageOperations.obj
 	@echo ... source/imageOperations.i
 	@echo ... source/imageOperations.s
+	@echo ... source/watershade.obj
+	@echo ... source/watershade.i
+	@echo ... source/watershade.s
 	@echo ... tgaSrc/TPGM.obj
 	@echo ... tgaSrc/TPGM.i
 	@echo ... tgaSrc/TPGM.s

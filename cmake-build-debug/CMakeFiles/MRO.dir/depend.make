@@ -3,6 +3,7 @@
 
 CMakeFiles/MRO.dir/main.cpp.obj: ../include/imageManagment.hpp
 CMakeFiles/MRO.dir/main.cpp.obj: ../include/imageOperations.hpp
+CMakeFiles/MRO.dir/main.cpp.obj: ../include/watershade.hpp
 CMakeFiles/MRO.dir/main.cpp.obj: ../main.cpp
 
 CMakeFiles/MRO.dir/source/imageManagment.cpp.obj: ../include/imageManagment.hpp
@@ -12,6 +13,11 @@ CMakeFiles/MRO.dir/source/imageManagment.cpp.obj: ../tgaSrc/TPGM.h
 CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: ../include/imageManagment.hpp
 CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: ../include/imageOperations.hpp
 CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: ../source/imageOperations.cpp
+CMakeFiles/MRO.dir/source/imageOperations.cpp.obj: ../tgaSrc/Ttiming.h
+
+CMakeFiles/MRO.dir/source/watershade.cpp.obj: ../include/watershade.hpp
+CMakeFiles/MRO.dir/source/watershade.cpp.obj: ../source/watershade.cpp
+CMakeFiles/MRO.dir/source/watershade.cpp.obj: ../tgaSrc/Ttiming.h
 
 CMakeFiles/MRO.dir/tgaSrc/TPGM.cpp.obj: ../tgaSrc/TPGM.cpp
 
