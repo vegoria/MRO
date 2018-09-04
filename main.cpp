@@ -21,7 +21,7 @@ int main()
     }
 
     readImageData(width, height, maxColor, headerPos, inputImage);
-    cout << "[INF] Image size are: " << height << " x " << width << endl;
+    cout << "[INF] Image size are [w x h]: " << width << " x " << height << endl;
 
     auto **differenceImage = new unsigned char* [height];
     differenceImage[0] = new unsigned char [height*width];

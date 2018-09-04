@@ -6,23 +6,7 @@
 
 #IncludeRegexTransform: 
 
-F:/MRO/include/imageManagment.hpp
-
-F:/MRO/include/imageOperations.hpp
-
 F:/MRO/include/watershade.hpp
-
-F:/MRO/main.cpp
-iostream
--
-include/imageManagment.hpp
-F:/MRO/include/imageManagment.hpp
-include/imageOperations.hpp
-F:/MRO/include/imageOperations.hpp
-include/watershade.hpp
-F:/MRO/include/watershade.hpp
-memory
--
 
 F:/MRO/source/watershade.cpp
 ../include/watershade.hpp
