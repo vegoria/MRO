@@ -55,25 +55,28 @@ int main()
                               10);
 
     cout << "[USR] Set starting point (x, y):";
-    cin >> startX;
-    cin >> startY;
+    //cin >> startX;
+   // cin >> startY;
+    startX=85;
+    startY=225;
 
     int treshold;
     cout << "[USR] Set treshold:";
-    cin >> treshold;
+    //cin >> treshold;
+    treshold=80;
 
     unique_ptr<Watershade> watershade = make_unique<Watershade>(width, height);
     watershade->setTreshold(treshold);
     watershade->setImage(differenceImage);
     watershade->setStartingPoint(startX, startY);
-//    int counter=0;
-//    for (treshold=5;treshold<80; treshold+=5) {
-//        counter++;
-//        watershade->setTreshold(treshold);
+    int counter=0;
+    for (treshold=2;treshold<100; treshold+=2) {
+        counter++;
+        watershade->setTreshold(treshold);
         elapsedTime += watershade->performWatershade();
-//        string path="../img/temporaryImages/01"+std::to_string(counter)+".pgm";
-//        saveImageWithPath(differenceImage,width,height,path);
-//    }
+        string path="../img/temporaryImages/01_"+std::to_string(counter)+".pgm";
+        saveImageWithPath(differenceImage,width,height,path);
+    }
 
     saveImage(differenceImage, width, height, WATERSHED);
 

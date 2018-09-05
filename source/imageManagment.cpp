@@ -5,6 +5,7 @@
 using namespace std;
 
 static const string INPUT_PATH = "../img/inputFiles/01.pgm";
+static const string OUTPUT_PATH = "../img/inputFiles/01.pgm";
 
 
 bool replace(std::string& str, const std::string& from, const std::string& to) {
@@ -17,7 +18,7 @@ bool replace(std::string& str, const std::string& from, const std::string& to) {
 
 string getImagePath(ImageKind imageKind)
 {
-    string imagePath = INPUT_PATH;
+    string imagePath = OUTPUT_PATH;
     switch(imageKind)
     {
         case ORIGINAL:
