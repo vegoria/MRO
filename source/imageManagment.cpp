@@ -91,3 +91,13 @@ void saveImage(unsigned char** image, int width, int height, ImageKind imageKind
         exit(1);
     }
 }
+
+void saveImageWithPath(unsigned char** image, int width, int height, string path)
+{
+    string imagePath = path;
+    if( writePGMB_image(imagePath.c_str(), image[0], height, width, 255) == 0)
+    {
+        cout << "[ERROR] Could not save image" << endl;
+        exit(1);
+    }
+}

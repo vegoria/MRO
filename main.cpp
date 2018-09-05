@@ -66,7 +66,15 @@ int main()
     watershade->setTreshold(treshold);
     watershade->setImage(differenceImage);
     watershade->setStartingPoint(startX, startY);
-    elapsedTime += watershade->performWatershade();
+//    int counter=0;
+//    for (treshold=5;treshold<80; treshold+=5) {
+//        counter++;
+//        watershade->setTreshold(treshold);
+        elapsedTime += watershade->performWatershade();
+//        string path="../img/temporaryImages/01"+std::to_string(counter)+".pgm";
+//        saveImageWithPath(differenceImage,width,height,path);
+//    }
+
     saveImage(differenceImage, width, height, WATERSHED);
 
     deallocateMemory(differenceImage);

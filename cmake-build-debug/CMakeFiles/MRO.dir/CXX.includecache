@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
-F:/MRO/include/watershade.hpp
-
-F:/MRO/source/watershade.cpp
-../include/watershade.hpp
-F:/MRO/include/watershade.hpp
-../tgaSrc/Ttiming.h
-F:/MRO/tgaSrc/Ttiming.h
-iostream
+C:/Users/nbkwanat/Desktop/MRO/MRO/include/imageManagment.hpp
+string
 -
 
-F:/MRO/tgaSrc/Ttiming.h
-Windows.h
+C:/Users/nbkwanat/Desktop/MRO/MRO/include/imageOperations.hpp
+
+C:/Users/nbkwanat/Desktop/MRO/MRO/include/watershade.hpp
+
+C:/Users/nbkwanat/Desktop/MRO/MRO/main.cpp
+iostream
+-
+include/imageManagment.hpp
+C:/Users/nbkwanat/Desktop/MRO/MRO/include/imageManagment.hpp
+include/imageOperations.hpp
+C:/Users/nbkwanat/Desktop/MRO/MRO/include/imageOperations.hpp
+include/watershade.hpp
+C:/Users/nbkwanat/Desktop/MRO/MRO/include/watershade.hpp
+memory
 -
 

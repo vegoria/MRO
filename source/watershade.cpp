@@ -109,6 +109,7 @@ int Watershade::floodImage()
                 floodHorizontal(j, i);
             }
         }
+        //zapisac
     }while(changed);
     return iterations;
 }
