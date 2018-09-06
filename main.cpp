@@ -31,7 +31,8 @@ int main()
     }
 
     cout << "[USR] Set number of Gaussian filter repetitions:";
-    cin >> numOfGaussianRepetition;
+    //cin >> numOfGaussianRepetition;
+    numOfGaussianRepetition=6;
     elapsedTime += makeGaussianFilterSeveralTimes(inputImage,
                                                   width,
                                                   height,
@@ -55,14 +56,13 @@ int main()
                               10);
 
     cout << "[USR] Set starting point (x, y):";
-    //cin >> startX;
-   // cin >> startY;
-    startX=85;
-    startY=225;
+    cin >> startX;
+    cin >> startY;
+
 
     int treshold;
-    cout << "[USR] Set treshold:";
-    //cin >> treshold;
+//    cout << "[USR] Set treshold:";
+//    cin >> treshold;
     treshold=80;
 
     unique_ptr<Watershade> watershade = make_unique<Watershade>(width, height);
